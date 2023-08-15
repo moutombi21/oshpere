@@ -15,20 +15,20 @@ const Footer = () => {
 
     </a>
     <div className="flex flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
-  <a href="#" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400">
+  <a href="#" className="text-sm transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1]">
   A propos
   </a>
-  <a href="#" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400">
+  <a href="#" className="text-sm transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1]">
     Services
   </a>
-  <a href="#" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400">
+  <a href="#" className="text-sm transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1]">
     Blog
   </a>
 
 </div>
 
     <div className="flex -mx-2">
-      <a href="#" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-400" aria-label="Reddit">
+      <a href="https://www.linkedin.com/company/ospherebe/" className="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-[#BC8FF1]" aria-label="Reddit">
       <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 fill-current" viewBox="0 0 30 30" fill="none">
   <circle cx={15} cy={15} r={15} fill="white" />
   <path d="M8.22154 22.0586H11.3056V12.0742H8.22154V22.0586Z" fill="black" />
@@ -37,17 +37,15 @@ const Footer = () => {
 </svg>
 
       </a>
-      <a href="#" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-400" aria-label="Facebook">
+      <a href="https://www.facebook.com/osphere.be/" className="mx-2 text-white transition-colors duration-300  hover:text-[#BC8FF1]" aria-label="Facebook">
         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z">
           </path>
         </svg>
       </a>
-      <a href="#" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-400" aria-label="Github">
-     <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 fill-current" viewBox="0 0 30 30" fill="none">
-  <circle cx={15} cy={15} r={15} fill="white" />
-  <path d="M21.9961 11.4915C22.6854 10.9745 23.3058 10.3541 23.7884 9.63028C23.168 9.90602 22.4442 10.1128 21.7204 10.1818C22.4786 9.73369 23.0301 9.04435 23.3058 8.18267C22.6165 8.59628 21.8238 8.90648 21.031 9.07881C20.3417 8.35501 19.4111 7.94141 18.3771 7.94141C16.378 7.94141 14.758 9.56135 14.758 11.5604C14.758 11.8362 14.7925 12.1119 14.8614 12.3876C11.8628 12.2153 9.1744 10.7677 7.38212 8.59628C7.07192 9.11328 6.89959 9.73369 6.89959 10.423C6.89959 11.6638 7.51999 12.7668 8.51953 13.4216C7.93359 13.3872 7.34766 13.2493 6.86512 12.9736V13.008C6.86512 14.7659 8.10593 16.2135 9.76034 16.5581C9.48461 16.6271 9.13994 16.696 8.82973 16.696C8.58847 16.696 8.38166 16.6615 8.1404 16.6271C8.58847 18.0747 9.93267 19.1087 11.5182 19.1432C10.2773 20.1082 8.72633 20.6942 7.03745 20.6942C6.72725 20.6942 6.45152 20.6597 6.17578 20.6252C7.76126 21.6592 9.65694 22.2452 11.725 22.2452C18.3771 22.2452 21.9961 16.7649 21.9961 11.974C21.9961 11.8017 21.9961 11.6638 21.9961 11.4915Z" fill="black" />
-</svg>
+      {/*instagram */}
+      <a href="https://www.instagram.com/osphere.be/" className="mx-2 text-white transition-colors duration-300 hover:text-[#BC8FF1]" aria-label="Github">
+      <svg className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
 
       </a>
     </div>
@@ -58,9 +56,10 @@ const Footer = () => {
     <div className='md:text-left text-center'>
       <p className="font-semibold text-gray-800 bg-[#BC8FF1] inline-block p-1 rounded">Contactez nous :</p>
       <div className="flex flex-col md:items-start mt-5 space-y-2">
-        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-blue-400 hover:underline text-sm">Email: hello@osphere.be</a>
-        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-blue-400 hover:underline text-sm">Téléphone: +32 (0) 468 08 16 20</a>
-        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-blue-400 hover:underline text-sm">Address: 75, Rue du Spignat
+        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-[#BC8FF1] hover:underline text-sm">Email: hello@osphere.be</a>
+        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-[#BC8FF1] hover:underline text-sm">Téléphone: +32 (0) 468 08 16 20</a>
+        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-[#BC8FF1] hover:underline text-sm">Téléphone: +32 (0) 492 87 42 39</a>
+        <a href="#" className=" transition-colors duration-300 text-gray-300 hover:text-[#BC8FF1] hover:underline text-sm">Address: 75, Rue du Spignat
 B-6030 Charleroi, Belgium</a>
       </div>
     </div>
@@ -78,13 +77,13 @@ B-6030 Charleroi, Belgium</a>
   <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
   <div>
   <div className="flex flex-col-reverse md:flex-row flex-wrap items-center justify-center gap-4 mt-6 lg:gap-6 lg:mt-0">
-  <Link href="/" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400 underline">
+  <Link href="/" className="text-sm text-white transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1] underline">
   © 2023 Osphere. All Rights Reserved.
   </Link>
-  <Link href="/legals" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400 underline">
+  <Link href="/legals" className="text-sm text-white transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1] underline">
   Mentions Légales
   </Link>
-  <Link href="/support" className="text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-400 underline">
+  <Link href="/support" className="text-sm text-white transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1] underline">
   Politique de Confidentialité
   </Link>
   

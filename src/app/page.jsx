@@ -471,7 +471,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           <img className="flex-shrink-0 object-cover w-24 h-24 ring-4 ring-gray-300 " src='/team/1.png' alt="team1" />
           <div className="">
             <h1 className="text-md leading-3 font-medium text-gray-700 capitalize group-hover:text-white">Loïc</h1>
-            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">CEO and Founder</p>
+            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">CEO Co-Founder</p>
           </div>
         </div>
         <div className="flex mt-4 -mx-2">
@@ -485,7 +485,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Explorez le visionnaire derrière notre agence de marketing. Passionné par l’innovation, l’entrepreneuriat et la croissance, Loïc guide notre équipe vers de nouveaux sommets. Avec une expertise profonde et une vision audacieuse, Loïc transforme les défis en opportunités, propulsant nos clients vers le succès. #LeadershipInspiration</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -495,7 +495,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           <img className="flex-shrink-0 object-cover w-24 h-24 ring-4 ring-gray-300 " src='/team/2.png' alt="team" />
           <div className="">
             <h1 className="text-md leading-3 font-medium text-gray-700 capitalize group-hover:text-white">Clément</h1>
-            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">COO and Founder</p>
+            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">Co-Founder</p>
           </div>
         </div>
         <div className="flex mt-4 -mx-2">
@@ -509,7 +509,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Découvrez l’esprit visionnaire de Clément, le co-fondateur qui catalyse notre agence de marketing. Animé par sa passion pour l’innovation, l’entrepreneuriat et la réussite, Clément guide notre équipe avec détermination. Sa créativité et sa persévérance transforment les défis en opportunités, propulsant nos clients vers l’atteinte de leurs objectifs. En tandem avec Loïc, il façonne l’avenir prometteur de notre agence. #Inspiration #Collaboration</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -533,7 +533,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Plongez dans l’univers créatif avec Michael, notre responsable de la création. Doté d’une imagination sans limites et d’une passion pour l’innovation, Michael donne vie à des concepts captivants et inspirants. Chaque campagne est une toile vierge pour lui, où il mélange l’art et la stratégie pour créer des expériences uniques. Avec Michael à la barre, notre créativité ne connaît pas de frontières. #Créativité #Innovation</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -557,7 +557,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Explorez le monde de la stratégie créative avec Brian, notre stratège créatif hors pair. Avec une compréhension profonde des tendances et des audiences, Brian transforme les idées en stratégies percutantes. Sa capacité à fusionner l’esthétique et l’analytique se traduit par des campagnes qui laissent une empreinte durable. Avec Brian à la barre, chaque projet devient une opportunité de repousser les limites de l’innovation. #StratégieCréative #Innovation</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -581,7 +581,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Rencontrez Arnaud, notre gestionnaire de performances dévoué. Fort d’une solide expérience en analyse de données et en optimisation, Arnaud donne vie aux chiffres. Sa capacité à décoder les tendances et à identifier les leviers de croissance fait de lui un atout essentiel pour chaque campagne. Arnaud transforme les données brutes en connaissances exploitables, ce qui permet d’affiner nos stratégies et d’optimiser les résultats. Avec Arnaud à bord, nos clients peuvent être assurés que leurs campagnes sont entre de bonnes mains, guidées par une compréhension approfondie des performances. #AnalyseDeDonnées #Optimisation</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -605,8 +605,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">2+ years of experience in writing and editing
-Skilled in creating compelling, SEO-optimized content for various industries</p>
+        <p className="mt-4 text-black text-sm capitalize group-hover:text-white">Rencontrez Cédric, notre créateur de contenu. Doté d’une créativité inépuisable, il transforme les idées en visuels captivants. Avec Cédric, chaque histoire prend vie de manière exceptionnelle. #Créativité #ContenuVisuel</p>
         
       </div>
     </div>

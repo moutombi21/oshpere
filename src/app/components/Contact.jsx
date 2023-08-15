@@ -60,7 +60,7 @@ const Contact = () => {
   <div className="flex items-center mb-4">
     <input id="option2" type="radio" name="select" onChange={handleChange} value="Obtenir-un-devis" className="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300" />
     <label htmlFor="option2" className="text-sm font-medium text-gray-900 ml-2 block">
-    Obtenir un devis
+    Obtenir un devis gratuit
     </label>
   </div>
 {errors.select && touched.select ? (

@@ -91,7 +91,7 @@ const Faqs = () => {
           )}
         </button>
         {item.active && (
-        <p className="mt-6 text-sm text-white">
+        <p className="mt-6 text-sm text-black">
           {item.Ans}
         </p>
         )}

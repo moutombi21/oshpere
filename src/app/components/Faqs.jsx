@@ -4,7 +4,7 @@ import React from 'react'
 const faq = [
     {
         id:1,
-        Question:'Consultations',
+        Question:'Consultations:',
         Ans:`En tant qu’experts en marketing, nous comprenons que chaque client a des besoins uniques. Nous offrons des consultations personnalisées pour discuter des objectifs, des défis et des aspirations de nos clients. Cette étape initiale nous permet de concevoir des stratégies sur mesure qui répondent précisément à leurs besoins. Nous sommes là pour guider nos clients à chaque étape de leur parcours marketing.`,
         active:true
     },
@@ -92,7 +92,7 @@ const Faqs = () => {
         </button>
         {item.active && (
         <p className="mt-6 text-sm text-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?
+          {item.Ans}
         </p>
         )}
       </div>

@@ -581,7 +581,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm group-hover:text-white">Rencontrez Arnaud, notre expert en analyse de données et optimisation. Il transforme les chiffres en actions, décèle les tendances et booste la croissance de chaque campagne. Avec lui, vos stratégies gagnent en finesse et vos résultats s'optimisent. Assurez-vous que vos campagnes sont entre de bonnes mains avec Arnaud. #PerformanceData #Optimization</p>
+        <p className="mt-4 text-black text-sm group-hover:text-white">Rencontrez Arnaud, notre expert en analyse de données et optimisation. Il transforme les chiffres en actions, décèle les tendances et booste la croissance de chaque campagne. Avec lui, vos stratégies gagnent en finesse et vos résultats s&apos;optimisent. Assurez-vous que vos campagnes sont entre de bonnes mains avec Arnaud. #PerformanceData #Optimization</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -632,7 +632,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-          “Une grande expérience et un accompagnement efficace des équipes d'Osphère sur de nombreux sujets : rédaction de contenus, accompagnement stratégique, optimisation des campagnes Google Ads et Facebook Ads ... Cerise sur le gâteau : la sympathie de tous nos interlocuteurs !”
+          “Une grande expérience et un accompagnement efficace des équipes d&apos;Osphère sur de nombreux sujets : rédaction de contenus, accompagnement stratégique, optimisation des campagnes Google Ads et Facebook Ads ... Cerise sur le gâteau : la sympathie de tous nos interlocuteurs !”
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">
@@ -646,7 +646,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-          “Collaboration très fructueuse avec Osphère pour la mise en place de nos stratégies et de marketing automation. Les équipes sont toujours à l'écoute, très réactives, et nous font bénéficier de leur expertise, de leur méthodologie pour nous permettre de progresser et de gagner en efficacité. Enfin, un esprit orienté "solutions" et "résultats" qui correspond aux besoins des entreprises !”
+          &quot;Collaboration très fructueuse avec Osphère pour la mise en place de nos stratégies et de marketing automation. Les équipes sont toujours à l&apos;écoute, très réactives, et nous font bénéficier de leur expertise, de leur méthodologie pour nous permettre de progresser et de gagner en efficacité. Enfin, un esprit orienté &quot;solutions&quot; et &quot;résultats&quot; qui correspond aux besoins des entreprises !&quot;
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">
@@ -660,7 +660,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-        "Une équipe professionnelle, performante et à l’écoute de ses clients. Osphère a assuré un accompagnement efficace pour la construction et le déploiement sur mesure de notre stratégie marketing avec un suivi, des conseils et recommandations toujours très constructifs. Bref, un partenaire de confiance !”
+        &quot;Une équipe professionnelle, performante et à l&apos;écoute de ses clients. Osphère a assuré un accompagnement efficace pour la construction et le déploiement sur mesure de notre stratégie marketing avec un suivi, des conseils et recommandations toujours très constructifs. Bref, un partenaire de confiance !&quot;
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">

@@ -69,13 +69,13 @@ const Contact = () => {
 </div>
             <div className="flex-1">
               <label className="block mb-2 text-sm text-gray-600">Nom complet*</label>
-              <input value={values.name} name='name' onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Nom" className={`block w-full px-5 py-3 mt-2 text-black ${errors.name && touched.name ?'bg-[#FF000033] bg-opacity-25':'bg-white'} border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring`} />
+              <input value={values.name} name='name' onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Nom complet" className={`block w-full px-5 py-3 mt-2 text-black ${errors.name && touched.name ?'bg-[#FF000033] bg-opacity-25':'bg-white'} border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring`} />
               {errors.name && touched.name ? (
                       <p className="text-red-500 text-sm">{errors.name}</p>
                     ) : null}
             </div>
             <div className="flex-1 mt-6">
-              <label className="block mb-2 text-sm text-gray-600">Email address*</label>
+              <label className="block mb-2 text-sm text-gray-600">Adresse E-mail*</label>
               <input value={values.email} onChange={handleChange} onBlur={handleBlur} name='email' type="email" placeholder="johndoe@example.com" className={`block w-full px-5 py-3 mt-2 text-black ${errors.email && touched.email ?'bg-[#FF000033] bg-opacity-25':'bg-white'} border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring`} />
               {errors.email && touched.email ? (
                       <p className="text-red-500 text-sm">{errors.email}</p>

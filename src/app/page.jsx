@@ -21,13 +21,13 @@ const Page = () => {
   <div className="container px-6 py-24 mx-auto text-center">
     <div className="max-w-2xl mx-auto">
       <h1 className="text-3xl font-semibold text-gray-800 tracking-wider lg:text-4xl">Boostez votre présence en ligne et dominez votre marché</h1>
-      <p className="mt-6 text-black">Transfomez votre présence digitale en une machine à succès. Notre agence est spécialisé dans l’amplification de votre visibilité en ligne grâce a des statégies marketing et des campagnes publicitaires sur Facebook, Instagram et TikTok.</p>
+      <p className="mt-6 text-black">Transfomez votre présence digitale en une machine à succès. Notre agence est spécialisée dans l’amplification de votre visibilité en ligne grâce à des statégies marketing et des campagnes publicitaires sur Facebook, Instagram et TikTok.</p>
       <button onClick={()=>setOpen(true)} className="px-5 py-3 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-black rounded-lg hover:bg-gray-700 lg:mx-0 lg:w-auto focus:outline-none">
       C’est parti !
       </button>
     </div>
     <div className="max-w-screen-xl mx-auto mt-20">
-  <div className="grid grid-cols-1 gap-12 md:gap-8 md:grid-cols-6 lg:grid-cols-3">
+  {/* <div className="grid grid-cols-1 gap-12 md:gap-8 md:grid-cols-6 lg:grid-cols-3">
     <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
    <svg xmlns="http://www.w3.org/2000/svg" width={126} height={51} viewBox="0 0 126 51" fill="none">
   <path d="M11.0062 0L10.9214 4.1675H10.9637C13.6832 4.1675 15.8079 6.3362 20.4394 14.0757L20.7367 14.5435V14.586L23.3288 10.7163V10.6738C22.7339 9.6957 22.139 8.7601 21.5866 7.9522C20.9492 6.9741 20.3119 6.1236 19.717 5.3581C16.6151 1.4884 14.0656 0 11.0062 0Z" fill="black" />
@@ -135,7 +135,7 @@ const Page = () => {
 
     </div>
     
-  </div>
+  </div> */}
 </div>
 
   </div>
@@ -239,7 +239,7 @@ const Page = () => {
         <div className='flex flex-col justify-between'>
         <h1 className="text-lg font-bold text-black capitalize ">
           <span className='bg-white p-1 rounded'>
-        Social Mediaspan</span><br/><span className='bg-white p-1 rounded'>Marketing</span></h1>
+        Social media</span><br/><span className='bg-white p-1 rounded'>Marketing</span></h1>
         <a href="#" className="md:inline-flex hidden item-center text-white capitalize transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className='w-8' viewBox="0 0 41 41" fill="none">
   <circle cx="20.5" cy="20.5" r="20.5" fill="white" />
@@ -351,7 +351,7 @@ const Page = () => {
         
         <div className='grid grid-cols-1 gap-8 mt-8 xl:mt-1 md:grid-cols-2 xl:grid-cols-2'>
         <div className='flex flex-col justify-between'>
-        <h1 className="text-lg font-bold text-white capitalize "><span className='bg-[#C797FF] p-1 rounded'>Analyse et</span><br/><span className='bg-[#C797FF] p-1 rounded'>Suivi</span></h1>
+        <h1 className="text-lg font-bold text-white capitalize "><span className='bg-[#C797FF] p-1 rounded'>Analyse et</span><br/><span className='bg-[#C797FF] p-1 rounded'>suivi</span></h1>
         <a href="#" className="md:inline-flex hidden item-center text-white capitalize transition-colors duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" className='w-8' viewBox="0 0 41 41" fill="none">
   <circle cx="20.5" cy="20.5" r="20.5" fill="white" />
@@ -397,7 +397,7 @@ const Page = () => {
       Notre mission
       </p>
       <h2 className="text-2xl font-semibold text-black md:text-4xl">
-      Propulser vos ventes avec la publicité
+      Propulsez vos ventes avec la publicité
       </h2>
       <div className="inline-flex w-full mt-6 sm:w-auto">
         <button onClick={()=>setOpen(true)} href="#" className="inline-flex items-center justify-center w-full px-6 py-3 text-sm text-white duration-300 bg-[#191A23] rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
@@ -423,7 +423,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
     <div className="flex md:flex-row flex-col py-6 lg:px-20 mt-8 bg-black rounded-3xl">
       <div className="flex md:w-1/2 flex-col p-6 space-y-3 ">
         
-        <h1 className="text-xl font-semibold text-[#C797FF] capitalize ">Ecommerce</h1>
+        <h1 className="text-xl font-semibold text-[#C797FF] capitalize ">E-commerce</h1>
         <p className="text-white text-sm text-wrap ">
         Découvrez notre équipe de passionnés du e-commerce, dédiée à votre réussite en ligne. Chaque membre est soigneusement sélectionné pour son expertise et son amour du secteur, puis formé pour exceller dans les domaines clés de la conversion, de la fidélisation et de l&lsquo;optimisation des coûts.
         </p>
@@ -471,7 +471,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           <img className="flex-shrink-0 object-cover w-24 h-24 ring-4 ring-gray-300 " src='/team/1.png' alt="team1" />
           <div className="">
             <h1 className="text-md leading-3 font-medium text-gray-700 capitalize group-hover:text-white">Loïc</h1>
-            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">CEO Co-Founder</p>
+            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">CEO and Co-Founder</p>
           </div>
         </div>
         <div className="flex mt-4 -mx-2">
@@ -495,7 +495,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           <img className="flex-shrink-0 object-cover w-24 h-24 ring-4 ring-gray-300 " src='/team/2.jpeg' alt="team" />
           <div className="">
             <h1 className="text-md leading-3 font-medium text-gray-700 capitalize group-hover:text-white">Clément</h1>
-            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">Co-Founder</p>
+            <p className="mt-2 text-black capitalize group-hover:text-white text-sm">COO and Co-Founder</p>
           </div>
         </div>
         <div className="flex mt-4 -mx-2">
@@ -581,7 +581,7 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
           </a>
         </div>
         </div>
-        <p className="mt-4 text-black text-sm group-hover:text-white">Rencontrez Arnaud, notre gestionnaire de performances dévoué. Fort d’une solide expérience en analyse de données et en optimisation, Arnaud donne vie aux chiffres. Sa capacité à décoder les tendances et à identifier les leviers de croissance fait de lui un atout essentiel pour chaque campagne. Arnaud transforme les données brutes en connaissances exploitables, ce qui permet d’affiner nos stratégies et d’optimiser les résultats. Avec Arnaud à bord, nos clients peuvent être assurés que leurs campagnes sont entre de bonnes mains, guidées par une compréhension approfondie des performances. #AnalyseDeDonnées #Optimisation</p>
+        <p className="mt-4 text-black text-sm group-hover:text-white">Rencontrez Arnaud, notre expert en analyse de données et optimisation. Il transforme les chiffres en actions, décèle les tendances et booste la croissance de chaque campagne. Avec lui, vos stratégies gagnent en finesse et vos résultats s&apos;optimisent. Assurez-vous que vos campagnes sont entre de bonnes mains avec Arnaud. #PerformanceData #Optimization</p>
         
       </div>
       <div className="px-4 shadow-[0px_5px_2px_0px_black] py-8 transition-colors duration-300 transform border cursor-pointer rounded-3xl hover:border-transparent group hover:bg-[#C797FF]">
@@ -622,9 +622,9 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
   <div className='flex flex-col md:flex-row item-center gap-10'>
 <div className='flex md:inline-block justify-center'>
 
-<h1 className="text-xl font-semibold text-gray-800 bg-[#C797FF] px-2 py-1 rounded-lg capitalize lg:text-xl ">Notre équipe</h1>
+<h1 className="text-xl font-semibold text-gray-800 bg-[#C797FF] px-2 py-1 rounded-lg capitalize lg:text-xl ">On le fait déjà pour eux</h1>
 </div>
-<p className="text-white text-sm max-w-xl text-center">Rencontrez l&lsquo;équipe qualifiée et expérimentée qui est à l&lsquo;origine de nos stratégies de marketing numérique couronnées de succès.
+<p className="text-white text-sm max-w-xl text-center">Écoutez nos clients satisfaits : lisez leurs témoignages pour en savoir plus sur nos services de marketing numérique.
 </p>
 </div>
     <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
@@ -632,13 +632,13 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-          “Travailler avec Osphère a été une révélation pour notre entreprise. Sa vision audacieuse et sa passion pour l’innovation ont transformé notre approche marketing. À chaque étape, Loïc, en tant que Co-fondateur, a su guider notre stratégie avec une clarté et une expertise exceptionnelles. Son leadership inspirant a non seulement stimulé notre croissance, mais a également créé une culture de créativité et de succès au sein de notre équipe. Grâce à lui, nous avons développé des campagnes qui captivent notre audience et génèrent des résultats exceptionnels. Loïc incarne le type de leader qui crée une différence réelle et durable.”.
+          “Une grande expérience et un accompagnement efficace des équipes d&apos;Osphère sur de nombreux sujets : rédaction de contenus, accompagnement stratégique, optimisation des campagnes Google Ads et Facebook Ads ... Cerise sur le gâteau : la sympathie de tous nos interlocuteurs !”
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">
           <div className="mx-2">
           <h1 className="font-semibold text-white ">Spohie</h1>
-            <span className="text-sm text-white">PDG d’une entreprise e-commerce </span>
+            <span className="text-sm text-white">Responsable Marketing </span>
           </div>
         </div>
       </div>
@@ -646,13 +646,13 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-          “Brian a radicalement changé la manière dont nous abordons la stratégie créative. Son approche novatrice et sa compréhension approfondie des tendances du marché nous ont permis de nous démarquer de la concurrence. Chaque interaction avec Brian, notre Stratège Créatif, est un véritable apprentissage. Il a cette rare capacité de traduire des idées en stratégies concrètes qui font la différence. Sa combinaison unique de pensée analytique et créative a contribué à faire de nos campagnes un succès retentissant. Travailler avec Brian est une opportunité d’explorer l’inconnu et de repousser les limites de l’innovation.”.
+          &quot;Collaboration très fructueuse avec Osphère pour la mise en place de nos stratégies et de marketing automation. Les équipes sont toujours à l&apos;écoute, très réactives, et nous font bénéficier de leur expertise, de leur méthodologie pour nous permettre de progresser et de gagner en efficacité. Enfin, un esprit orienté &quot;solutions&quot; et &quot;résultats&quot; qui correspond aux besoins des entreprises !&quot;
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">
           <div className="mx-2">
-          <h1 className="font-semibold text-white ">Antoine</h1>
-            <span className="text-sm text-white">Responsable Marketing d’une start-up technologique</span>
+          <h1 className="font-semibold text-white ">Caroline</h1>
+            <span className="text-sm text-white">Directrice Marketing</span>
           </div>
         </div>
       </div>
@@ -660,13 +660,13 @@ Campagnes publicitaires percutantes sur Facebook, Instagram et TikTok pour optim
       <div className='border-[#C797FF] border p-8 rounded-3xl'>
 
         <p className="leading-loose text-white text-sm">
-          “Arnaud est bien plus qu’un gestionnaire de performances – il est un partenaire stratégique inestimable. Sa capacité à démystifier les données et à les transformer en stratégies exploitables a transformé notre approche marketing. Grâce à son expertise, nous avons identifié des opportunités d’optimisation que nous n’aurions jamais découvertes par nous-mêmes. Arnaud, en tant que Gestionnaire de Performances, est un communicateur exceptionnel qui nous a guidés à travers les méandres complexes de l’analyse de données. Sa collaboration proactive et son dévouement à notre succès ont renforcé notre confiance en notre stratégie marketing.”.
+        &quot;Une équipe professionnelle, performante et à l&apos;écoute de ses clients. Osphère a assuré un accompagnement efficace pour la construction et le déploiement sur mesure de notre stratégie marketing avec un suivi, des conseils et recommandations toujours très constructifs. Bref, un partenaire de confiance !&quot;
         </p>
       </div>
         <div className="flex items-center mt-8 -mx-2">
           <div className="mx-2">
             <h1 className="font-semibold text-white ">Isabelle</h1>
-            <span className="text-sm text-white">Directrice Marketing d’une agence de voyages</span>
+            <span className="text-sm text-white">Chargée de Missions Marketing</span>
           </div>
         </div>
       </div>

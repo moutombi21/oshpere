@@ -22,7 +22,7 @@ const Footer = () => {
     Services
   </a>
   <a href="#" className="text-sm transition-colors duration-300 text-gray-200 hover:text-[#BC8FF1]">
-    Blog
+    Contact
   </a>
 
 </div>

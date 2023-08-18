@@ -21,7 +21,7 @@ const Navbar = ({event}) => {
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link href="/" className="mr-5 hover:text-gray-900">A propos</Link>
       <Link href="/#service" className="mr-5 hover:text-gray-900">Services</Link>
-      <Link href="/#blog" className="mr-5 hover:text-gray-900">Blog</Link>
+      <Link href="/#contact" className="mr-5 hover:text-gray-900">Contact</Link>
     </nav>
   {/* <PopupButton text="Click here to schedule!" rootElement={document.getElementById("room")} url="https://calendly.com/osphere" /> */}
     

@@ -60,7 +60,7 @@ return (
         <Link href='/#portfolio' className=" hover:text-gray-300 hover:scale-110 text-center">Services</Link>    
         </li>
         <li>
-        <Link href='/#skills' className=" hover:text-gray-300 hover:scale-110 text-center"> Blog</Link>
+        <Link href='/#skills' className=" hover:text-gray-300 hover:scale-110 text-center"> Contact</Link>
         </li>
         
       </ul>

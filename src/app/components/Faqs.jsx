@@ -4,37 +4,37 @@ import React from 'react'
 const faq = [
     {
         id:1,
-        Question:'Consultations:',
+        Question:'Consultations',
         Ans:`En tant qu’experts en marketing, nous comprenons que chaque client a des besoins uniques. Nous offrons des consultations personnalisées pour discuter des objectifs, des défis et des aspirations de nos clients. Cette étape initiale nous permet de concevoir des stratégies sur mesure qui répondent précisément à leurs besoins. Nous sommes là pour guider nos clients à chaque étape de leur parcours marketing.`,
         active:true
     },
     {
         id:2,
-        Question:'Recherche et Développement Stratégique',
+        Question:'Recherche et développement stratégique',
         Ans:`Le paysage du marketing numérique est en constante évolution. Notre équipe reste à la pointe des dernières tendances, technologies et pratiques exemplaires. Nous investissons dans la recherche et le développement pour anticiper les nouvelles opportunités et offrir à nos clients des stratégies innovantes. Cette approche proactive garantit que nos campagnes restent compétitives et pertinentes.`,
         active:false
     },
     {
         id:3,
-        Question:'Mise en Œuvre',
+        Question:'Mise en œuvre',
         Ans:`Une stratégie solide ne peut être efficace que si elle est correctement mise en œuvre. Notre équipe expérimentée assure la mise en place fluide et précise de chaque aspect de la campagne, des publicités aux canaux de marketing choisis. Nous nous assurons que chaque détail est pris en compte, de la conception créative à la planification du calendrier, pour garantir une exécution sans faille.`,
         active:false
     },
     {
       id:4,
-      Question:'Suivi et Optimisation',
+      Question:'Suivi et optimisation',
       Ans:`Nous accordons une grande importance au suivi rigoureux des performances de chaque campagne. Grâce à une analyse approfondie des données, nous identifions les opportunités d’optimisation. Que ce soit en ajustant les paramètres des publicités, en affinant les audiences cibles ou en adaptant les messages, notre objectif est de garantir que chaque euro investi génère le meilleur retour sur investissement possible.`,
       active:false
   },
   {
     id:5,
-    Question:'Rapport et Communication',
+    Question:'Rapport et communication',
     Ans:`La transparence et la communication sont essentielles pour nous. Nous fournissons régulièrement des rapports détaillés à nos clients, mettant en évidence les performances, les tendances et les réalisations de leurs campagnes. Notre équipe est toujours disponible pour discuter des résultats, répondre aux questions et ajuster la stratégie en fonction des commentaires et des besoins de nos clients.`,
     active:false
 },
 {
   id:6,
-  Question:'Amélioration Continue',
+  Question:'Amélioration continue',
   Ans:`Notre approche repose sur le principe de l’amélioration continue. Nous restons constamment à l’écoute des besoins de nos clients et surveillons de près les performances de nos campagnes. En analysant les données en temps réel, nous identifions les domaines qui nécessitent des ajustements et des améliorations. Cette approche proactive nous permet de maximiser les résultats tout en restant flexibles et adaptatifs aux évolutions du marché.`,
   active:false
 },
@@ -69,7 +69,7 @@ const Faqs = () => {
         <div className='flex gap-5 items-center'>
 
           <h3 className=' text-3xl font-extrabold'>0{item.id}</h3>
-          <h1 className="font-semibold text-gray-700">{item.Question}</h1>
+          <h1 className="font-semibold text-gray-700 text-left">{item.Question}</h1>
         </div>
           {item.active ? (
           <span className="text-gray-400 bg-gray-200 rounded-full">
@@ -91,7 +91,7 @@ const Faqs = () => {
           )}
         </button>
         {item.active && (
-        <p className="mt-6 text-sm text-black">
+        <p className="mt-6 text-sm text-black text-left">
           {item.Ans}
         </p>
         )}
